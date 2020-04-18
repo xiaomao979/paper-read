@@ -24,3 +24,12 @@ Thesaurus Based和Distributional方法计算相似度。首先将三元组编译
 phrase as a bag of words and averaging the word vectors of each word in the phrase, pruning out unknown words.）
 
 ## 汇总相似度
+分为两个维度的汇总，第一个维度是汇总单个相似性矩阵，第二个维度是汇总这些汇总后的aggregate judgements.也就是说一共11种计算相似度的方法，我们都计算一边，然后汇总这些相似度值
+### 第一维度汇总——Thresholded Average Similarity
+对于单个相似度矩阵，取前百分之五的相似度值后取平均
+
+### 第二维度汇总——Aggregate Similarity Values
+对于每种方法计算的值，做逻辑回归。
+
+# 实验方法
+使用ReVerb和ConceptNet数据库，负样本是替换常识三元组中的一个实体或关系
