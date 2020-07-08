@@ -8,4 +8,4 @@
  具体来说，我们首先将实体、关系和三元组作为文本序列，并将知识图完成转化为序列分类问题。 然后，我们在这些seq上微调BERT模型 用于预测三重关系或关系的合理性。  
  我们将实体和关系表示为其名称或描述，然后将名称/描述词序列作为BERT模型的输入语句进行微调。 作为原始的BERT，“句子”可以是连续文本或单词序列的任意跨度，而不是实际的语言句子。 为了模拟三元组的真实性，我们将（h，r，t）的句子打包为单个序列。   
  
- ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+ ![Image text](https://github.com/xiaomao979/paper-read/picture/KG-BERT BERT for Knowledge Graph Completion.png)
