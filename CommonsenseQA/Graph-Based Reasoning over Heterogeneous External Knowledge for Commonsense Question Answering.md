@@ -1,6 +1,5 @@
 # 论文目的
-给定三元组判断是否这个三元组是否为合理的常识（We develop neural network models for scoring tuples on arbitrary phrases and evaluate them by
-their ability to distinguish true held-out tuples from false ones）
+实现常识问答——常识问答要用到外部知识，现有的常识问答方法有两种：they either generate evidence from human-annotated evidence or extract evidence from a homogeneous knowledge source like structured knowledge ConceptNet
 
 # 论文方法
 ## Bilinear Models
