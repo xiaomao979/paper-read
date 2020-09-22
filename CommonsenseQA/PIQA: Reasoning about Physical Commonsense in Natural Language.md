@@ -21,18 +21,14 @@ AFLite algorithm用于从数据中删除样式工件和琐碎的示例。AFLite�
 - RoBERTa
 
 ## 实验结果
-| | | Accuracy (%)
-Model | Size | Validation |  Test
-OpenAI | GPT | 124M | 70.9 | 69.2
-Google | BERT | 340M | 67.1  | 66.8
-FAIR | RoBERTa | 355M | 79.2 | 77.1
 
-## 实验内容
-1. 在CommonsenseQA上对比baseline效果
-2. Ablation Study——对比模型简化版本以证明每个模块的有效性
-3. case study
-4. 误差分析——the lack of evidence, similar evidence and dataset noise
+ 
+Model | Size | Validation Acc |  Test Acc  
+ ---- | ----- | ------   | ------ 
+GPT | 124M | 70.9 | 69.2  
+BERT | 340M | 67.1  | 66.8  
+RoBERTa | 355M | 79.2 | 77.1  
+
+可以看出效果并没有很理想
 
 
-# 论文亮点
-实验做得极其充分
