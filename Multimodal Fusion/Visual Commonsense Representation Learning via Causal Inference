@@ -1,0 +1,28 @@
+# 论文目的
+通过捕获图像当中的常识来解决VQA（Visual Question Answering）和captioning（给图片加说明文字）
+
+# 论文方法
+使用R-CNN结合causal intervention
+## causal intervention
+通过将干预P(Y | do(X))作为特征学习目标，我们可以在 “common” and “sense-making”之间进行调整，从而减轻观察偏差
+
+
+# 实验方法
+使用预训练模型看是否模型可以解决PIQA
+## Model
+- GPT
+- Bert
+- RoBERTa
+
+## 实验结果
+
+ 
+Model | Size | Validation Acc |  Test Acc  
+ ---- | ----- | ------   | ------ 
+GPT | 124M | 70.9 | 69.2  
+BERT | 340M | 67.1  | 66.8  
+RoBERTa | 355M | 79.2 | 77.1  
+
+可以看出效果并没有很理想
+
+
