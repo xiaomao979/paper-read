@@ -11,17 +11,3 @@
 ## 可解释性方法
 - 研究稀疏嵌入矩阵维数可解释性的第一种方法是为每个维数分配人类可解释性特征：
 
-# 实验方法
-## dataset
-- English Reddit dataset
-- Chinese Weibo dataset
-
-## 实验内容
-1. 在数据集上对比baseline效果
-2. Ablation Study——对比模型简化版本以证明每个模块的有效性
-3. case study
-4. 误差分析——the lack of evidence, similar evidence and dataset noise
-
-
-# 论文亮点
-实验部分采用多重语言
