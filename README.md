@@ -3,8 +3,9 @@
 主要阐述论文的目的、理论、实验方法
 
 ## Basic-Commonsense
-- ConceptNet
+- ConceptNet介绍
 - Commonsense Knowledge Base Completion
+- 常识获取
 
 ## Commonsense-apply
 Commonsense在其他领域的应用
