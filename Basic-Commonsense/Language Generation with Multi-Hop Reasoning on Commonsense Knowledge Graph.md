@@ -8,4 +8,4 @@
 ### Generation with Multi-Hop Reasoning Flow
 - Static Multi-Relational Graph Encoding：使用GNN获取图编码
 - Context Modeling with Pre-Trained Transformer：使用GTP-2获取文本内容信息
-- Dynamic Multi-Hop Reasoning Flow：
+- Dynamic Multi-Hop Reasoning Flow：该模块利用知识图的结构模式和上下文信息在每个解码步骤沿关系路径传播证据。
