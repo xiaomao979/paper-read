@@ -2,8 +2,8 @@
 当前的语言模型主要有以下的问题
 - insufficient coverage：常识无法捕获
 - insufficient precision：准确率不高
-- limited reasoning capabilities： 目前尚不清楚LMS是否能够执行涉及隐式知识的多个推理步骤  
- 为了增加高精度世界知识的覆盖范围，并通过使中间推理步骤明确来促进多跳推理， 作者研究预先训练的LMS作为外部KB的替代提供知识去完成限制满足问题。
+- limited reasoning capabilities： 目前尚不清楚LMS是否能够执行涉及隐式知识的多个推理步骤    
+为了增加高精度世界知识的覆盖范围，并通过使中间推理步骤明确来促进多跳推理， 作者研究预先训练的LMS作为外部KB的替代提供知识去完成限制满足问题。
  # 论文内容
  ## LM-only Baseline
  我们使用预先训练的语言模型LMS来评分不同文本片段的合理性，即利用语言模型，将文本问题答案拼接起来，然后看是否合理（给个评分）
