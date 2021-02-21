@@ -14,4 +14,15 @@
 4. 手动构建难度较高的负样本：利用预训练语言模型预测三元组的尾实体，并去top10不在KG中的，并手动标注获取负样本
 
 # Analysis of relation patterns
+分析了CODEX中的三类关系symmetry,inversion, and compositionality  
+1. symmetry：（h, r, t) in G implies (t, r, h) in G  
+2. Compositionality：A=B，B=C -> A=C  
+3. inversion忽略是为了防止train/test leakage（PS：数据泄漏是指机器学习模型的创建者在测试数据集和训练数据集之间意外地共享信息所犯的错误。通常，当将数据集分割为测试集和训练集时，目标是确保两者之间没有数据共享。）  
 
+# Benchmarking
+我们在link prediction and triple classification上对CODEX进行基准测试（运用了五个模型：RESCAL, TransE, ComplEx, ConvE, and TuckER）。    
+1. Link prediction：给定其中一个实体和关系，预测另一个
+2. triple classification：预测真假
+
+#  Comparative case study
+比较了CODEX-M and FB15K-237数据集，证明CODEX在多样性，可解释性上都较为优秀
