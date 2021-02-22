@@ -16,6 +16,12 @@ Commonsense在其他领域的应用
 ## Dataset Construction
 构建数据集的相关论文
 
+## KG complement
+知识图谱补全相关的论文
+
+## NLP Basic Knowledge
+打NLP基础的时候，CMU网课推荐的经典论文
+ 
 ## Pretraining
 预训练模型相关的论文
 
@@ -31,5 +37,4 @@ Commonsense在其他领域的应用
 ## Winograd Schema Challenge
 Winograd Schema Challenge数据集相关的论文
 
-## KG complement
-知识图谱补全相关的论文
+
