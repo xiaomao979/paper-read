@@ -28,3 +28,4 @@ Multitask learning (MTL) is the procedure of learning several tasks at the same 
 - Shallow Joint Training：对于同一个数据集，一个模型同时预测多个任务的标签。但是联合标注数据集很难获取。
 
 # Leveraging Unlabeled Data
+对于没有标签的数据，看窗口当前单词是否与context相关（二分类任务）
